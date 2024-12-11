@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "node --import=tsx ./stripe-payment-set.test.ts"
+  },
+  "dependencies": {
+    "stripe": "^17.4.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "incremental": true,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "lib": ["esnext", "dom"],
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "noEmit": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "plugins": [
+      { "transform": "typia/lib/transform" },
+      {
+        "name": "@0no-co/graphqlsp",
+        "schema": "https://cudzkmpt23.execute-api.ap-northeast-1.amazonaws.com/v10.1"
+      }
+    ],
+    "strict": true,
+    "target": "es2022"
+  },
+  "ts-node": {
+    "logError": true,
+    "esm": true
+  }
+}
